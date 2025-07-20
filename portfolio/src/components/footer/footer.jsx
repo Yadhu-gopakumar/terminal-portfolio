@@ -7,11 +7,11 @@ export const Footer = () => {
     const [time, setTime] = useState(new Date().toLocaleTimeString());
  
     useEffect(() => {
-        // const interval = setInterval(() => {
-        //     setDate(new Date());
-        //     setTime(new Date().toLocaleTimeString());
-        // }, 1000);
-        // return () => clearInterval(interval);
+        const interval = setInterval(() => {
+            setDate(new Date());
+            setTime(new Date().toLocaleTimeString());
+        }, 1000);
+        return () => clearInterval(interval);
 
 
     }, [])

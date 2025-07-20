@@ -1,5 +1,4 @@
 
-import './App.css'
 import { Appbar } from './components/appbar/appbar'
 import { Content } from './components/content/content'
 import { Footer } from './components/footer/footer'
